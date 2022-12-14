@@ -57,6 +57,14 @@ class AnimalsController < ApplicationController
     end
   end
 
+  def cachorros
+    @cachorros = Animal.where(descricao: /.*(cachorro)+.*/i)
+  end
+
+  def gatos
+    @gatos = Animal.where(descricao: /.*(gato)+.*/i)
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_animal
