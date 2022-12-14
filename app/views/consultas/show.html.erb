@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Data consulta:</strong>
+  <%= @consulta.data_consulta %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @consulta.descricao %>
+</p>
+
+<p>
+  <strong>Animal:</strong>
+  <%= @consulta.animal %>
+</p>
+
+<p>
+  <strong>Veterinario:</strong>
+  <%= @consulta.veterinario %>
+</p>
+
+<%= link_to 'Edit', edit_consulta_path(@consulta) %> |
+<%= link_to 'Back', consultas_path %>

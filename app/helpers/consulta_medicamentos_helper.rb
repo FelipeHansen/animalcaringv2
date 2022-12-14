@@ -1,0 +1,2 @@
+module ConsultaMedicamentosHelper
+end
