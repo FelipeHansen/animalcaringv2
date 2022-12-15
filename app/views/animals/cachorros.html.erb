@@ -22,7 +22,7 @@
                     <%= c.descricao %>
                 </td>
                 <td class="py-4 px-6">
-                    <%= c.tutor.nome %>
+                    <%= c.tutor&.nome %>
                 </td>
                 <td class="py-4 px-6">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><%= link_to 'Editar animal', edit_animal_path(c) %></a>

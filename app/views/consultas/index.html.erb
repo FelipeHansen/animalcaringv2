@@ -18,8 +18,8 @@
       <tr>
         <td><%= consulta.data_consulta %></td>
         <td><%= consulta.descricao %></td>
-        <td><%= consulta.animal %></td>
-        <td><%= consulta.veterinario %></td>
+        <td><%= consulta.animal.nome %></td>
+        <td><%= consulta.veterinario.nome %></td>
         <td><%= link_to 'Show', consulta %></td>
         <td><%= link_to 'Edit', edit_consulta_path(consulta) %></td>
         <td><%= link_to 'Destroy', consulta, method: :delete, data: { confirm: 'Are you sure?' } %></td>
