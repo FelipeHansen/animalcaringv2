@@ -4,4 +4,5 @@
 * clonar o repositório: git clone git@github.com:FelipeHansen/animalcaringv2.git
 * entrar no diretório e rodar o comando: bundle install
 * Após rodar o comando: rails server
+* Dump presente no diretório /dump
 
